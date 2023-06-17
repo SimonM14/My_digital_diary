@@ -27,7 +27,7 @@
   }
   
   input[type="submit"]:hover {
-    background: #6cf0c2;
+    background: #040807;
   }
   
   .button-container {
@@ -61,3 +61,10 @@
     gap: 20px;
     margin: 10px;
   }
+
+  .headmessage{
+    font-family:'Arial';
+    word-spacing: 5px;
+    text-align: center;
+
+ }

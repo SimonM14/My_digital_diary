@@ -78,6 +78,10 @@ function App() {
 
   return (
     <div className="app">
+      <div className="headmessage">
+        <p>Welcome to my Digital Diary, fill your Diary</p>
+        <p>with the breathings of your heart</p>     
+      </div>
       <div className="login-form">
         <div className="title">Sign In</div>
         {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
