@@ -1,14 +1,15 @@
 .app {
-    font-family:'Verdana';
+    font-family:'Times New Roman';
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 20px;
     height: 100vh;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     background-image: url('https://i.pinimg.com/564x/5b/0e/e0/5b0ee00477b5b345d2ae9d5408884d23.jpg');
     background-repeat: no-repeat;
+    border:15px black;
+
 }
   input[type="text"],
   input[type="password"] {
@@ -53,6 +54,7 @@
   .title {
     font-size: 25px;
     margin-bottom: 20px;
+    font-family: 'Tahoma';
   }
   
   .input-container {
@@ -66,5 +68,5 @@
     font-family:'Arial';
     word-spacing: 5px;
     text-align: center;
-
+    text-shadow:4px;
  }
